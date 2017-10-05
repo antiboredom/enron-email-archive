@@ -57,3 +57,4 @@ query = {
 results = es.search(index="enron", body=query)
 ```
 
+A more complete example can be found in ```get_lines.py```
