@@ -2174,3 +2174,16 @@ body {
   }
 
 }
+
+.signup {
+  float: right;
+  margin-right: 10px;
+  font-size: .8em;
+  color: #fff;
+  text-decoration: none;
+}
+
+footer {
+  font-size: .9em;
+  text-align: center;
+}

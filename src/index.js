@@ -116,7 +116,10 @@ class App extends Component {
     return (
       <SearchkitProvider searchkit={searchkit}>
         <Layout>
-          <div className="top">The Good Life</div>
+          <div className="top">
+            The Good Life
+            <a className="signup" href="https://enron.email">Sign up</a>
+          </div>
           <TopBar>
             <div className="logo">Search Enron</div>
             <SearchBox
@@ -191,6 +194,9 @@ class App extends Component {
             </LayoutResults>
 
           </LayoutBody>
+          <footer>
+            <p>Made by By <a href="http://lav.io">Sam Lavigne</a> &amp; <a href="http://tegabrain.com/">Tega Brain</a>, from the <a href="https://www.cs.cmu.edu/~./enron/">Enron Email Dataset</a>.</p>
+          </footer>
         </Layout>
       </SearchkitProvider>
     );
