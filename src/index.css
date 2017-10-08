@@ -2105,7 +2105,7 @@ body {
     /* height: 100%; */
 }
 
-.butt, .sk-toggle-option {
+.butt, .sk-toggle-option, .sk-no-hits__step-action {
   background: #b0b0b0;
   border: 1px solid #000;
   border-top-color: #dfdfdf;
@@ -2131,6 +2131,12 @@ body {
   display: inline-block;
   border-radius: 0 !important;
 }
+
+.sk-no-hits__step-action {
+  margin: 5px;
+  /* background-color: darkblue; */
+}
+
 
 .sk-toggle-option.is-active {
   background-color: darkblue;
