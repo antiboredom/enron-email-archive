@@ -117,17 +117,7 @@ class App extends Component {
           </LayoutBody>
           <footer>
             <p>
-              Made by By
-              {' '}
-              <a href="http://lav.io">Sam Lavigne</a>
-              {' '}
-              &amp;
-              {' '}
-              <a href="http://tegabrain.com/">Tega Brain</a>
-              , from the
-              {' '}
-              <a href="https://www.cs.cmu.edu/~./enron/">Enron Email Dataset</a>
-              .
+              Made by <a href="http://lav.io">Sam Lavigne</a> &amp; <a href="http://tegabrain.com/">Tega Brain</a>, from the <a href="https://www.cs.cmu.edu/~./enron/">Enron Email Dataset</a> | <a href="https://github.com/antiboredom/enron-email-archive">API access</a>
             </p>
           </footer>
         </Layout>
